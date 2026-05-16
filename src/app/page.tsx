@@ -6,6 +6,7 @@ import Portfolio from "../sections/Portfolio";
 import Services from "../sections/Services";
 import Blog from "../sections/Blog";
 import Footer from "../components/Footer"
+import TestBlog from "../sections/TestBlog";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
       <Portfolio />
       <Services/>
       <Blog />
+      <TestBlog />
       <Footer />
     </>
   );
